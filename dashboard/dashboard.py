@@ -19,7 +19,7 @@ def show_home():
 
 # Sidebar
 st.sidebar.header("Menu")
-menu = st.sidebar.selectbox("Pilih analisis yang ingin ditampilkan", 
+menu = st.sidebar.selectbox("Please Choose One of the Menu Below", 
                              ['Home', 
                               'Jumlah Penyewaan Sepeda berdasarkan Hari', 
                               'Jumlah Penyewaan Sepeda per Jam', 
