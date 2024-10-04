@@ -2,9 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load data
-data_path = 'main_data.csv' 
-all_df = pd.read_csv(data_path)
+# Load data 
+all_df = pd.read_csv("https://raw.githubusercontent.com/ayuaprliia/Bike_Sharing_Analysis_Project/refs/heads/main/dashboard/main_data.csv")
 
 # title
 st.title("Dashboard Bike Sharing Dataset:bike:")
