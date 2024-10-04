@@ -7,8 +7,6 @@ all_df = pd.read_csv("https://raw.githubusercontent.com/ayuaprliia/Bike_Sharing_
 
 # title
 st.title("Dashboard Bike Sharing Dataset:bike:")
-st.sidebar.image("dashboard/logo.jpg")
-
 
 # Home
 def show_home():
